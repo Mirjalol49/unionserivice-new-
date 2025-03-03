@@ -1,0 +1,42 @@
+.header {
+   color: rgb(255, 255, 255);
+    padding: 15px 0;
+}
+
+.logo-link {
+    display: block;
+    width: 100px;
+}   
+
+.logo-link img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    font-weight: 500;
+}
+
+.nav-button {
+    background-color: #1557ff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+}

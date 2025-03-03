@@ -1,0 +1,22 @@
+.carousel {
+    position: relative; /* Ensure positioning context */
+  }
+  
+  .carousel-arrow {
+    position: absolute;
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%); /* Adjust for centering */
+    z-index: 2; /* Ensure arrows are above other content */
+  }
+  
+  .carousel-arrow.left {
+    left: 10px; /* Adjust as needed */
+  }
+  
+  .carousel-arrow.right {
+    right: 10px; /* Adjust as needed */
+  }
+
+  .service-title {
+    margin-bottom: 50px;
+  }
