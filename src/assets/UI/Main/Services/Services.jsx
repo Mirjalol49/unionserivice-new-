@@ -23,7 +23,7 @@ function Index() {
   return (
   
     <div className="bg-background p-4 relative">
-      <h1 className=' service-title  text-white text-5xl font-extrabold text-center' >WE OFFER A WIDE RANGE OF CAR SERVICES</h1>
+      <h1 className='service-title text-white text-5xl font-extrabold text-center fade-in'>WE OFFER A WIDE RANGE OF CAR SERVICES</h1>
       <Carousel options={OPTIONS} isScale={true} className='mt-10'>
         <SliderContainer>
           <Slider className="sm:w-[55%] w-[90%]">

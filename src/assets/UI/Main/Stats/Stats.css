@@ -38,3 +38,41 @@
     height: 50px;
     background-color: rgba(255, 255, 255, 0.2);
 }
+
+@media (max-width: 768px) {
+    .stats {
+        flex-direction: column;
+        gap: 40px;
+    }
+    
+    .divider {
+        width: 50px;
+        height: 2px;
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .stat h2 {
+        font-size: 3rem;
+    }
+    
+    .stat p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 300px) {
+    .stats {
+        padding: 60px 0;
+        gap: 30px;
+    }
+    
+    .stat h2 {
+        font-size: 2.5rem;
+    }
+    
+    .stat p {
+        font-size: 0.8rem;
+    }
+}
